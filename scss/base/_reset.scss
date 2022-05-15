@@ -1,12 +1,13 @@
 @use "../abstracts/abstracts" as *;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: red;
+  font-family: $main-font;
+  background-color: $very-dark-blue;
+  font-size: 15px;
 }
-
