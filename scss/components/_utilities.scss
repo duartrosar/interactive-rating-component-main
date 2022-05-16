@@ -1,0 +1,23 @@
+@use "../abstracts/abstracts" as *;
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  width: 100%;
+  background-color: $primary-orange;
+  color: $neutral-white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.86667px;
+  padding: 12px 0;
+  border-radius: 22.5px;
+  border-color: transparent;
+  &:active {
+    background-color: $neutral-white;
+    color: $primary-orange;
+  }
+}
